@@ -1,0 +1,37 @@
+.container {
+    position: relative;
+    width: 70%;
+    display: inline-block;
+  }
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: lightpink;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    height: 15%;
+}
+  
+.text {
+    white-space: nowrap; 
+    color: antiquewhite;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.text p {
+    font-size: 10px;
+}
