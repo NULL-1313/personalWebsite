@@ -33,21 +33,23 @@ body {
 }
 
 .row {
-    width: 70%;
+    width: 75%;
     margin: 0.15%;
-    height: 10%;
+    height: 20%;
     font-size: medium;
     border: none;
     background-color: lightpink;
     border-radius: 5px;
     margin: auto;
-    padding-left: 5%;
-    padding-top: 5%;
     color: antiquewhite;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .row h3, .row h4{
     text-align: left;
+    padding-left: 5%;
 }
 
 .list, h1 {
